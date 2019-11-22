@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ytwgAA0rEeqv_YMqN8nigA" name="Use_Case_Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_y1EB4A0rEeqv_YMqN8nigA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_0fwCEA0rEeqv_YMqN8nigA" name="Systeme_clavardage">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NvscUA0sEeqv_YMqN8nigA" name="Create_id">
+      <include xmi:type="uml:Include" xmi:id="_naKPYA0sEeqv_YMqN8nigA" addition="_coMhoA0sEeqv_YMqN8nigA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_coMhoA0sEeqv_YMqN8nigA" name="Ask_Login_Password"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iQC68A0sEeqv_YMqN8nigA" name="Authentificate">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ZobvcA0tEeqv_YMqN8nigA" general="_KD7fwA0tEeqv_YMqN8nigA"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_g6wGgA0tEeqv_YMqN8nigA" general="_c6BcAA0tEeqv_YMqN8nigA"/>
+      <include xmi:type="uml:Include" xmi:id="_z9XRQA0sEeqv_YMqN8nigA" addition="_vdM4wA0sEeqv_YMqN8nigA"/>
+      <include xmi:type="uml:Include" xmi:id="_AWdU4A0tEeqv_YMqN8nigA" addition="_8OR-kA0sEeqv_YMqN8nigA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vdM4wA0sEeqv_YMqN8nigA" name="Check_Login_Unicity"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8OR-kA0sEeqv_YMqN8nigA" name="Check_Login_Password"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KD7fwA0tEeqv_YMqN8nigA" name="Update_Users_Table"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_c6BcAA0tEeqv_YMqN8nigA" name="Start_Chat">
+      <generalization xmi:type="uml:Generalization" xmi:id="_XW2R4A0uEeqv_YMqN8nigA" general="_k4ZAwA0tEeqv_YMqN8nigA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_k4ZAwA0tEeqv_YMqN8nigA" name="Read_User_Table">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ZOWmEA0uEeqv_YMqN8nigA" general="_qMn6gA0tEeqv_YMqN8nigA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qMn6gA0tEeqv_YMqN8nigA" name="Ask_Connexion">
+      <generalization xmi:type="uml:Generalization" xmi:id="_cA7bYA0uEeqv_YMqN8nigA" general="_xAhQMA0tEeqv_YMqN8nigA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xAhQMA0tEeqv_YMqN8nigA" name="Update_History">
+      <generalization xmi:type="uml:Generalization" xmi:id="_CTtPQA0uEeqv_YMqN8nigA" general="_09KE4A0tEeqv_YMqN8nigA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_09KE4A0tEeqv_YMqN8nigA" name="Send_Message"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ERxecA0uEeqv_YMqN8nigA" name="Disconnect">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Qwm9sA0uEeqv_YMqN8nigA" general="_KD7fwA0tEeqv_YMqN8nigA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ERrCsA0sEeqv_YMqN8nigA" name="User">
+    <generalization xmi:type="uml:Generalization" xmi:id="_fi_z8A0uEeqv_YMqN8nigA" general="_NvscUA0sEeqv_YMqN8nigA"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_jC0w0A0uEeqv_YMqN8nigA" general="_iQC68A0sEeqv_YMqN8nigA"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_kTGF4A0uEeqv_YMqN8nigA" general="_ERxecA0uEeqv_YMqN8nigA"/>
+  </packagedElement>
+</uml:Model>
