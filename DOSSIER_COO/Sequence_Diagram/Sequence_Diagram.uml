@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7SxLsAwzEeqPrpAYNDgktw" name="Sequence_Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_7bHPYAwzEeqPrpAYNDgktw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_7W8hEAwzEeqPrpAYNDgktw" name="Interaction1">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_AmyqEAw0EeqPrpAYNDgktw" name="" type="_7W8hEAwzEeqPrpAYNDgktw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BObR0Qw0EeqPrpAYNDgktw" name="" type="_7W8hEAwzEeqPrpAYNDgktw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WF6ooQw1EeqPrpAYNDgktw" name="" type="_7W8hEAwzEeqPrpAYNDgktw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_W8AjIQw1EeqPrpAYNDgktw" name="" type="_7W8hEAwzEeqPrpAYNDgktw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_AmpgIAw0EeqPrpAYNDgktw" name="" represents="_AmyqEAw0EeqPrpAYNDgktw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_BObR0Aw0EeqPrpAYNDgktw" name="" represents="_BObR0Qw0EeqPrpAYNDgktw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_G65FYAw0EeqPrpAYNDgktw" name="User1"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_O9PyQAw0EeqPrpAYNDgktw" name="User2"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_TV0VAAw0EeqPrpAYNDgktw" name="User1_list"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Z7CVgAw0EeqPrpAYNDgktw" name="History"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_P4O-YAw1EeqPrpAYNDgktw" name="Authentification"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_WF6ooAw1EeqPrpAYNDgktw" name="" represents="_WF6ooQw1EeqPrpAYNDgktw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_W8AjIAw1EeqPrpAYNDgktw" name="" represents="_W8AjIQw1EeqPrpAYNDgktw"/>
+  </packagedElement>
+</uml:Model>
