@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Sequence_Diagram/Sequence_Diagram.di&apos; to &apos;Send_message.di&apos;" description="Rename resource &apos;Sequence_Diagram.di&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Sequence_Diagram.di" name="Send_message.di" stamp="1574441255043" updateReferences="true"/>
+</session>
